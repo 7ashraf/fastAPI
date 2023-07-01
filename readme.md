@@ -76,6 +76,10 @@ This web application is built using FastAPI and React, and it allows you to fetc
 7. Seed the database:
 
    - Use the provided CSV file to seed the database. Replace the placeholder with the actual CSV file in the backend code.
+   using: $python seed.py
+   warning: do not attempt to run the program without seeding as it will crash
+   warning: in the main.py you should configure th postgres connectiion to match your device
+
 
 8. Interact with the web application:
 
@@ -87,3 +91,22 @@ Note: Make sure to have PostgreSQL and the required Python and Node.js dependenc
 Feel free to modify the installation instructions and provide additional details based on your project structure and specific requirements.
 
 Please let me know if there's anything else I can assist you with!
+
+# Screenshots:
+
+# Before fetching
+![Alt text](/sc/beforefetch.png?raw=true "")
+
+# After Fetching
+![Alt text](/sc/afterfetch.png?raw=true "")
+
+# Upload
+![Alt text](/sc/upload.png?raw=true "")
+
+# Test.csv
+![Alt text](/sc/testcsv.png?raw=true "")
+
+# After Upload
+![Alt text](/sc/afterupload.png?raw=true "")
+
+
